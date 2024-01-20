@@ -1,8 +1,8 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "whatsapp-bot (HASHIRA-BOT)",
   "description": " Whatsapp bot.",
   "keywords": [
-    "whatsapp bot"
+    "hashira bot"
   ],
   "repository": "https://github.com/Guru322/GURU-BOT",
   "stack": "container",
@@ -13,39 +13,39 @@
       "value": ""
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "Guru_64375d41-fcb6-4be6-9178-7a3b7396a426",
       "required": true,
-      "value": ""
+      "value": "Guru_64375d41-fcb6-4be6-9178-7a3b7396a426"
     },
     "MODE": {
-      "description": "mode public or private",
+      "description": "mode private",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "8ccf640e-969d-437a-8ec8-aed4c7f98a86"
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
-      "value": ""
+      "value": "madhashira"
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
